@@ -13,7 +13,7 @@ def _py_files(folder):
 
 
 collect_ignore = [
-    # not a test, but looks like a test
+    # Nolwazi
     "scrapy/utils/testsite.py",
     # contains scripts to be run by tests/test_crawler.py::CrawlerProcessSubprocess
     *_py_files("tests/CrawlerProcess"),
